@@ -1,0 +1,31 @@
+@NRITest
+Feature: NRI Test
+  Testing for NRI screening QA position
+
+  Background:              # NRItest.feature:5
+    Given Initiate browser # NRItestDef.initiate_browser()
+
+  @Test1
+  Scenario: Test NRi                                          # NRItest.feature:9
+    Given Open "demo.automationtesting.in" URL on any browser # NRItestDef.open_url_on_any_browser(String)
+    When Click on Skip Sign in button                         # NRItestDef.click_on_skip_sign_in_button()
+    And Navigate to register page                             # NRItestDef.navigate_to_register_page()
+    And Fill all the fields                                   # NRItestDef.fill_all_the_fields()
+    And Click on submit button                                # NRItestDef.click_on_submit_button()
+    And Navigate to webtable menu                             # NRItestDef.navigate_to_webtable_menu()
+    And Edit, delete a record from webtable                   # NRItestDef.edit_delete_a_record_from_webtable()
+    And Navigate to SwitchTo                                  # NRItestDef.navigate_to_switch_to()
+    And Click the button to display the alertbox              # NRItestDef.click()
+    And Click on alert                                        # NRItestDef.click_on_alert()
+    And Navigate to Interactions->Drag and Drop->static       # NRItestDef.navigate_to_interactions_drag_and_drop_static()
+    And Drag selenium logo                                    # NRItestDef.drag_selenium_logo()
+      java.lang.AssertionError: expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:513)
+      	at org.testng.Assert.assertTrue(Assert.java:42)
+      	at org.testng.Assert.assertTrue(Assert.java:52)
+      	at pageObject.DragDropPage.dragDropPic(DragDropPage.java:55)
+      	at stepDefinitions.NRItestDef.drag_selenium_logo(NRItestDef.java:98)
+      	at ✽.And Drag selenium logo(NRItest.feature:21)
+
+    Then Exit the test                                        # NRItestDef.exit_the_test()

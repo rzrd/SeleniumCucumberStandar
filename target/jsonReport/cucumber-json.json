@@ -1,0 +1,248 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1932771368,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Initiate browser",
+            "match": {
+              "location": "NRItestDef.initiate_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4979509,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenarioStart()"
+            }
+          },
+          {
+            "result": {
+              "duration": 153989,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Test NRi",
+        "description": "",
+        "id": "nri-test;test-nri",
+        "after": [
+          {
+            "result": {
+              "duration": 253450491,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2565405845,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Open \"demo.automationtesting.in\" URL on any browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo.automationtesting.in",
+                  "offset": 6
+                }
+              ],
+              "location": "NRItestDef.open_url_on_any_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3542739366,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Skip Sign in button",
+            "match": {
+              "location": "NRItestDef.click_on_skip_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3040342003,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Navigate to register page",
+            "match": {
+              "location": "NRItestDef.navigate_to_register_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2399931028,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Fill all the fields",
+            "match": {
+              "location": "NRItestDef.fill_all_the_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147542880,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on submit button",
+            "match": {
+              "location": "NRItestDef.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4403105629,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Navigate to webtable menu",
+            "match": {
+              "location": "NRItestDef.navigate_to_webtable_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 923941586,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Edit, delete a record from webtable",
+            "match": {
+              "location": "NRItestDef.edit_delete_a_record_from_webtable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2613739024,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Navigate to SwitchTo",
+            "match": {
+              "location": "NRItestDef.navigate_to_switch_to()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 304241675,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click the button to display the alertbox",
+            "match": {
+              "location": "NRItestDef.click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26060780,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click on alert",
+            "match": {
+              "location": "NRItestDef.click_on_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1847303997,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Navigate to Interactions-\u003eDrag and Drop-\u003estatic",
+            "match": {
+              "location": "NRItestDef.navigate_to_interactions_drag_and_drop_static()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 321058040,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\n\tat org.testng.Assert.assertTrue(Assert.java:42)\n\tat org.testng.Assert.assertTrue(Assert.java:52)\n\tat pageObject.DragDropPage.dragDropPic(DragDropPage.java:55)\n\tat stepDefinitions.NRItestDef.drag_selenium_logo(NRItestDef.java:98)\n\tat ✽.And Drag selenium logo(NRItest.feature:21)\n",
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "Drag selenium logo",
+            "match": {
+              "location": "NRItestDef.drag_selenium_logo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Exit the test",
+            "match": {
+              "location": "NRItestDef.exit_the_test()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Test1"
+          }
+        ]
+      }
+    ],
+    "name": "NRI Test",
+    "description": "Testing for NRI screening QA position",
+    "id": "nri-test",
+    "keyword": "Feature",
+    "uri": "NRItest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@NRITest"
+      }
+    ]
+  }
+]

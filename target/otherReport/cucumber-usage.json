@@ -1,0 +1,218 @@
+[
+  {
+    "source": "Click on Skip Sign in button",
+    "steps": [
+      {
+        "name": "Click on Skip Sign in button",
+        "aggregatedDurations": {
+          "average": 3.542739366,
+          "median": 3.542739366
+        },
+        "durations": [
+          {
+            "duration": 3.542739366,
+            "location": "NRItest.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Click on submit button",
+    "steps": [
+      {
+        "name": "Click on submit button",
+        "aggregatedDurations": {
+          "average": 0.14754288,
+          "median": 0.14754288
+        },
+        "durations": [
+          {
+            "duration": 0.14754288,
+            "location": "NRItest.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Navigate to register page",
+    "steps": [
+      {
+        "name": "Navigate to register page",
+        "aggregatedDurations": {
+          "average": 3.040342003,
+          "median": 3.040342003
+        },
+        "durations": [
+          {
+            "duration": 3.040342003,
+            "location": "NRItest.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Click on alert",
+    "steps": [
+      {
+        "name": "Click on alert",
+        "aggregatedDurations": {
+          "average": 0.02606078,
+          "median": 0.02606078
+        },
+        "durations": [
+          {
+            "duration": 0.02606078,
+            "location": "NRItest.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Initiate browser",
+    "steps": [
+      {
+        "name": "Initiate browser",
+        "aggregatedDurations": {
+          "average": 1.932771368,
+          "median": 1.932771368
+        },
+        "durations": [
+          {
+            "duration": 1.932771368,
+            "location": "NRItest.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Navigate to webtable menu",
+    "steps": [
+      {
+        "name": "Navigate to webtable menu",
+        "aggregatedDurations": {
+          "average": 4.403105629,
+          "median": 4.403105629
+        },
+        "durations": [
+          {
+            "duration": 4.403105629,
+            "location": "NRItest.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Navigate to SwitchTo",
+    "steps": [
+      {
+        "name": "Navigate to SwitchTo",
+        "aggregatedDurations": {
+          "average": 2.613739024,
+          "median": 2.613739024
+        },
+        "durations": [
+          {
+            "duration": 2.613739024,
+            "location": "NRItest.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Fill all the fields",
+    "steps": [
+      {
+        "name": "Fill all the fields",
+        "aggregatedDurations": {
+          "average": 2.399931028,
+          "median": 2.399931028
+        },
+        "durations": [
+          {
+            "duration": 2.399931028,
+            "location": "NRItest.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Navigate to Interactions-\u003eDrag and Drop-\u003estatic",
+    "steps": [
+      {
+        "name": "Navigate to Interactions-\u003eDrag and Drop-\u003estatic",
+        "aggregatedDurations": {
+          "average": 1.847303997,
+          "median": 1.847303997
+        },
+        "durations": [
+          {
+            "duration": 1.847303997,
+            "location": "NRItest.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Open \"([^\"]*)\" URL on any browser",
+    "steps": [
+      {
+        "name": "Open \"demo.automationtesting.in\" URL on any browser",
+        "aggregatedDurations": {
+          "average": 2.565405845,
+          "median": 2.565405845
+        },
+        "durations": [
+          {
+            "duration": 2.565405845,
+            "location": "NRItest.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Click the button to display the alertbox",
+    "steps": [
+      {
+        "name": "Click the button to display the alertbox",
+        "aggregatedDurations": {
+          "average": 0.304241675,
+          "median": 0.304241675
+        },
+        "durations": [
+          {
+            "duration": 0.304241675,
+            "location": "NRItest.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Edit, delete a record from webtable",
+    "steps": [
+      {
+        "name": "Edit, delete a record from webtable",
+        "aggregatedDurations": {
+          "average": 0.923941586,
+          "median": 0.923941586
+        },
+        "durations": [
+          {
+            "duration": 0.923941586,
+            "location": "NRItest.feature:16"
+          }
+        ]
+      }
+    ]
+  }
+]
