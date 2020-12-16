@@ -1,6 +1,3 @@
-# NRITest
-for NRI technical test assessment
-
 # How To Runing the Test:
 1. Clone the repository
 2. Open the project with your IDEA (e.g IntelliJ, Eclipse)
