@@ -1,4 +1,4 @@
-@NRITest
+@PositiveTest
 Feature: NRI Test
 	Testing for NRI screening QA position
   

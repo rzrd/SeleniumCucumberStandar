@@ -115,7 +115,7 @@ public class Base {
 				}
 			} catch (Exception e) {
 				System.out.println("Wrong input, try to re-input.");
-				driver.findElement(element).sendKeys(Keys.chord(Keys.CONTROL, "a", Keys.DELETE));
+				findElement.sendKeys(Keys.chord(Keys.CONTROL, "a", Keys.DELETE));
 			}
 			attempts++;
 		}

@@ -14,7 +14,7 @@ import utilities.Base;
 import utilities.ClassHelp;
 import utilities.Data;
 
-public class NRItestDef {
+public class PositiveDef {
 	WebDriver driver;
 	Base base = new Base();
 	Data data = new Data();
