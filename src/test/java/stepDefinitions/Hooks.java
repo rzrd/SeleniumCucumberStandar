@@ -62,7 +62,7 @@ public class Hooks extends Base {
 		try {
 			File sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			File destinationPath = new File(
-					System.getProperty("user.dir") + "/target/htmlReport/screenshots/" + screenshotName);
+					System.getProperty("user.dir") + "/target/htmlReport/" + screenshotName);
 			Files.copy(sourcePath, destinationPath);
 			Reporter.addScreenCaptureFromPath(destinationPath.toString());
 			System.out.println("Take screenshot success..");
