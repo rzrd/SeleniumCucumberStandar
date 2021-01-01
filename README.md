@@ -38,5 +38,6 @@ just add note for github change "master" to "main". dont take care about this. :
 - git add .
 - git commit -m "first commit"
 - git remote add origin remote repository URL
+- before push, makesure add .project .classpath and .settings/ to your gitignore file
 - git push origin main
 - if you wan to pull first, do git pull origin main --allow-unrelated-histories
