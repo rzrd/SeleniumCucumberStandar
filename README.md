@@ -28,3 +28,15 @@
 
 - @PositiveTest
 - @Test1
+
+
+
+
+just add note for github change "master" to "main". dont take care about this. :)
+- git init
+- git branch -m master
+- git add .
+- git commit -m "first commit"
+- git remote add origin remote repository URL
+- git push origin main
+- if you wan to pull first, do git pull origin main --allow-unrelated-histories
